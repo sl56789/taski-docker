@@ -1,5 +1,5 @@
-from pathlib import Path
 import os
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -15,8 +15,6 @@ ALLOWED_HOSTS = [
     'myhost151.zapto.org',
     'myhost151.zapto.org:8000',
     '51.250.19.90:8000',
-    'backend',  # Имя сервиса в Docker Compose
-    'gateway',  # На всякий случай
 ]
 
 
