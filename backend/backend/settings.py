@@ -17,6 +17,9 @@ ALLOWED_HOSTS = [
     '51.250.19.90:8000',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://myhost151.zapto.org'
+]
 
 # Application definition
 
